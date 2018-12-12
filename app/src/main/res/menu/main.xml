@@ -74,5 +74,8 @@
         android:title="@string/menu_about"/>
     <item
         android:id="@+id/menu_apps"
-        android:title="@string/menu_apps"/>
+        android:title="Apps"/>
+    <item
+        android:id="@+id/menu_change"
+        android:title="更改颜色"/>
 </menu>

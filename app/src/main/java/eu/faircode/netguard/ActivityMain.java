@@ -879,6 +879,10 @@ public class ActivityMain extends AppCompatActivity implements SharedPreferences
                 menu_apps();
                 return true;
 
+            case R.id.menu_change:
+                startActivity(new Intent(ActivityMain.this, SampleActivity.class));
+                return true;
+
             default:
                 return super.onOptionsItemSelected(item);
         }
